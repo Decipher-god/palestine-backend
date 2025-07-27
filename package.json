@@ -1,10 +1,11 @@
 {
   "name": "palestine-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "node api/donate.js"
+    "build": "echo 'Nothing to build'",
+    "start": "vercel dev"
   },
   "dependencies": {
     "axios": "^1.6.7",
